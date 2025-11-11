@@ -1,0 +1,7 @@
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://julia-website-eight.vercel.app/sitemap.xml
+

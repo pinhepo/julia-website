@@ -21,8 +21,56 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Julia Goulart - Psicóloga Clínica",
-  description: "Psicóloga clínica pós-graduada em terapia cognitivo-comportamental. Atendimento presencial e online.",
+  title: "Julia Goulart - Psicóloga Clínica em Pelotas/RS | TCC",
+  description: "Psicóloga clínica pós-graduada em Terapia Cognitivo-Comportamental (TCC) pela Wainer Psicologia. Atendimento presencial em Pelotas/RS e online para todo o Brasil. Especialista em ansiedade, autoestima e relacionamentos.",
+  keywords: [
+    "psicóloga Pelotas",
+    "psicóloga Pelotas RS",
+    "psicologia Pelotas",
+    "terapia cognitivo comportamental Pelotas",
+    "TCC Pelotas",
+    "psicólogo online",
+    "terapia online",
+    "Julia Goulart psicóloga",
+    "psicóloga ansiedade Pelotas",
+    "psicóloga relacionamentos",
+    "atendimento psicológico Pelotas",
+  ],
+  authors: [{ name: "Julia Goulart" }],
+  creator: "Julia Goulart",
+  publisher: "Julia Goulart",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    title: "Julia Goulart - Psicóloga Clínica em Pelotas/RS",
+    description: "Atendimento psicológico com especialização em Terapia Cognitivo-Comportamental. Presencial em Pelotas e online.",
+    url: "https://julia-website-eight.vercel.app",
+    siteName: "Julia Goulart Psicóloga",
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Julia Goulart - Psicóloga Clínica",
+    description: "Psicóloga especializada em TCC. Atendimento em Pelotas/RS e online.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: "https://julia-website-eight.vercel.app",
+  },
 };
 
 export default function RootLayout({
@@ -30,8 +78,82 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Psychologist',
+    name: 'Julia Goulart',
+    image: 'https://julia-website-eight.vercel.app/logo.svg',
+    description: 'Psicóloga clínica pós-graduada em Terapia Cognitivo-Comportamental (TCC) pela Wainer Psicologia.',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Pelotas',
+      addressRegion: 'RS',
+      addressCountry: 'BR',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: -31.7654,
+      longitude: -52.3376,
+    },
+    url: 'https://julia-website-eight.vercel.app',
+    telephone: '+55-53-98457-3348',
+    email: 'juliagoulartpsico@gmail.com',
+    priceRange: '$$',
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '08:00',
+      closes: '18:00',
+    },
+    sameAs: [
+      'https://instagram.com/julliagoulart.psi',
+    ],
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Pelotas',
+      },
+      {
+        '@type': 'State',
+        name: 'Rio Grande do Sul',
+      },
+      {
+        '@type': 'Country',
+        name: 'Brasil',
+      },
+    ],
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Serviços de Psicologia',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Terapia Cognitivo-Comportamental (TCC)',
+            description: 'Atendimento psicológico especializado em TCC para adolescentes e adultos.',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Atendimento Online',
+            description: 'Sessões de terapia online por videochamada para todo o Brasil.',
+          },
+        },
+      ],
+    },
+  };
+
   return (
     <html lang="pt-BR" className="w-full">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${playfairDisplay.variable} ${cormorantGaramond.variable} ${openSans.variable} w-full antialiased`}
       >
