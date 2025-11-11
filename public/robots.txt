@@ -3,5 +3,5 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://julia-website-eight.vercel.app/sitemap.xml
+Sitemap: https://juliagoulart.psi.umbrielcms.com.br/sitemap.xml
 

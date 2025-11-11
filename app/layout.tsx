@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Julia Goulart - Psicóloga Clínica em Pelotas/RS",
     description: "Atendimento psicológico com especialização em Terapia Cognitivo-Comportamental. Presencial em Pelotas e online.",
-    url: "https://julia-website-eight.vercel.app",
+    url: "https://juliagoulart.psi.umbrielcms.com.br",
     siteName: "Julia Goulart Psicóloga",
     locale: "pt_BR",
     type: "website",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://julia-website-eight.vercel.app",
+    canonical: "https://juliagoulart.psi.umbrielcms.com.br",
   },
 };
 
@@ -82,7 +82,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'Psychologist',
     name: 'Julia Goulart',
-    image: 'https://julia-website-eight.vercel.app/logo.svg',
+    image: 'https://juliagoulart.psi.umbrielcms.com.br/logo.svg',
     description: 'Psicóloga clínica pós-graduada em Terapia Cognitivo-Comportamental (TCC) pela Wainer Psicologia.',
     address: {
       '@type': 'PostalAddress',
@@ -95,7 +95,7 @@ export default function RootLayout({
       latitude: -31.7654,
       longitude: -52.3376,
     },
-    url: 'https://julia-website-eight.vercel.app',
+    url: 'https://juliagoulart.psi.umbrielcms.com.br',
     telephone: '+55-53-98457-3348',
     email: 'juliagoulartpsico@gmail.com',
     priceRange: '$$',
