@@ -43,7 +43,7 @@ export function FAQSection() {
             >
               Perguntas frequentes
             </h3>
-            <span className="text-sm text-[#A67979]">Precisa de algo específico?</span>
+            <span className="text-sm font-semibold text-[#8f5e5e]">Precisa de algo específico?</span>
           </div>
           <div className="mt-8 space-y-4">
             {faqs.map((faq, index) => {
@@ -56,10 +56,10 @@ export function FAQSection() {
                     className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left text-[#333333]"
                   >
                     <span className="font-semibold">{faq.question}</span>
-                    <span className="text-xl text-[#A67979]">{isOpen ? '−' : '+'}</span>
+                    <span className="text-xl font-bold text-[#8f5e5e]">{isOpen ? '−' : '+'}</span>
                   </button>
                   {isOpen && (
-                    <p className="px-5 pb-5 text-sm leading-relaxed text-[#534f4c]">{faq.answer}</p>
+                    <p className="px-5 pb-5 text-sm leading-relaxed text-[#4a4542]">{faq.answer}</p>
                   )}
                 </div>
               );
@@ -73,7 +73,7 @@ export function FAQSection() {
           >
             Como posso ajudar você hoje?
           </h3>
-          <p className="mt-4 text-[#534f4c]">
+          <p className="mt-4 text-[#4a4542]">
             Vamos conversar sobre suas necessidades. Conte-me um pouco sobre você e combinaremos o melhor formato de atendimento.
           </p>
           <ContactForm />
@@ -131,13 +131,13 @@ function ContactForm() {
             name="celular"
             value={formData.celular}
             onChange={handleInputChange}
-            className="w-full rounded-xl border border-[#d8c9bd] bg-white px-4 py-3 text-sm focus:border-[#A67979] focus:outline-none focus:ring-2 focus:ring-[#A67979]/30"
+            className="w-full rounded-xl border border-[#d8c9bd] bg-white px-4 py-3 text-sm focus:border-[#8f5e5e] focus:outline-none focus:ring-2 focus:ring-[#8f5e5e]/30"
             placeholder="(DD) 99999-9999"
           />
         </div>
         <div>
           <label htmlFor="email" className="mb-1 block text-sm font-semibold text-[#333333]">
-            Email<span className="ml-1 text-[#A67979]">*</span>
+            Email<span className="ml-1 text-[#8f5e5e]">*</span>
           </label>
           <input
             id="email"
@@ -146,7 +146,7 @@ function ContactForm() {
             value={formData.email}
             onChange={handleInputChange}
             required
-            className="w-full rounded-xl border border-[#d8c9bd] bg-white px-4 py-3 text-sm focus:border-[#A67979] focus:outline-none focus:ring-2 focus:ring-[#A67979]/30"
+            className="w-full rounded-xl border border-[#d8c9bd] bg-white px-4 py-3 text-sm focus:border-[#8f5e5e] focus:outline-none focus:ring-2 focus:ring-[#8f5e5e]/30"
             placeholder="nome@email.com"
           />
         </div>
@@ -167,7 +167,7 @@ function ContactForm() {
       </div>
       <button
         type="submit"
-        className="w-full rounded-full bg-[#333333] px-6 py-3 font-semibold text-white transition hover:bg-[#A67979]"
+        className="w-full rounded-full bg-[#333333] px-6 py-3 font-semibold text-white transition hover:bg-[#8f5e5e]"
       >
         Enviar mensagem
       </button>

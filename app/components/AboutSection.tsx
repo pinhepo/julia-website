@@ -27,7 +27,7 @@ export function AboutSection() {
           >
             Sobre meu trabalho
           </h3>
-          <div className="mt-6 space-y-4 text-[#534f4c] leading-relaxed">
+          <div className="mt-6 space-y-4 text-[#4a4542] leading-relaxed">
             <p>
               Sou psicóloga clínica (CRP 07/39057), graduada pela Universidade Católica de Pelotas (UCPel) e pós-graduada em Terapia Cognitivo-Comportamental pela Wainer Psicologia. Minha prática prioriza acolhimento, ética e a construção de um espaço em que você se sinta seguro para falar sobre suas experiências.
             </p>
@@ -47,19 +47,19 @@ export function AboutSection() {
             >
               Especialização em TCC
             </h4>
-            <p className="mt-4 text-[#534f4c]">
+            <p className="mt-4 text-[#4a4542]">
               A Terapia Cognitivo-Comportamental é considerada uma abordagem moderna, prática e amparada por evidências científicas. Trabalhamos com metas claras e técnicas que facilitam a mudança de padrões que causam sofrimento.
             </p>
           </div>
           <div className="space-y-4">
-            <p className="text-sm font-semibold tracking-[0.3em] text-[#A67979] uppercase">
+            <p className="text-sm font-semibold tracking-[0.3em] text-[#8f5e5e] uppercase">
               Diferenciais do cuidado
             </p>
             <ul className="space-y-4">
               {careDifferentials.map((highlight) => (
                 <li key={highlight.title} className="rounded-2xl bg-white/80 p-4 shadow-sm">
                   <p className="font-semibold text-[#333333]">{highlight.title}</p>
-                  <p className="text-sm text-[#534f4c]">{highlight.description}</p>
+                  <p className="text-sm text-[#4a4542]">{highlight.description}</p>
                 </li>
               ))}
             </ul>

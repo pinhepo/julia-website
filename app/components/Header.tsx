@@ -15,7 +15,7 @@ export function Header() {
           />
           <div>
             <p
-              className="text-sm tracking-[0.3em] text-[#A67979]"
+              className="text-sm tracking-[0.3em] text-[#8f5e5e]"
               style={{ fontFamily: 'var(--font-cormorant)' }}
             >
               Psicóloga Clínica
@@ -33,7 +33,7 @@ export function Header() {
             href="https://wa.me/5553984573348"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-[#A67979] px-5 py-2 text-sm font-semibold text-[#A67979] transition-colors hover:bg-[#A67979] hover:text-white"
+            className="rounded-full border-2 border-[#8f5e5e] px-5 py-2 text-sm font-semibold text-[#8f5e5e] transition-colors hover:bg-[#8f5e5e] hover:text-white"
           >
             Agendar sessão
           </a>
@@ -41,7 +41,7 @@ export function Header() {
             href="https://instagram.com/julliagoulart.psi"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-[#333333] px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-[#A67979]"
+            className="rounded-full bg-[#333333] px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-[#8f5e5e]"
           >
             Instagram
           </a>

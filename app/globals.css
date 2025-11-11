@@ -3,9 +3,12 @@
 :root {
   --background: #faf8f5;
   --foreground: #333333;
-  --accent: #A67979;
+  --accent: #8f5e5e;
+  --accent-hover: #A67979;
   --accent-light: #d4b4b4;
+  --text-medium: #4a4542;
   --text-light: #666666;
+  --text-lighter: #6b5950;
   --beige: #f5f1eb;
 }
 

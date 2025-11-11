@@ -61,10 +61,10 @@ export function ContactSection() {
           >
             Onde você me encontra
           </h3>
-          <p className="mt-3 text-sm tracking-[0.3em] text-[#A67979] uppercase">
+          <p className="mt-3 text-sm font-semibold tracking-[0.3em] text-[#8f5e5e] uppercase">
             Atendimento presencial em Pelotas/RS e on-line para todo o Brasil
           </p>
-          <p className="mt-5 text-[#534f4c]">
+          <p className="mt-5 text-[#4a4542]">
             Agendamentos presenciais no centro de Pelotas e sessões virtuais via Google Meet ou plataforma equivalente, garantindo segurança e sigilo.
           </p>
           <div className="mt-8 space-y-5">
@@ -74,9 +74,9 @@ export function ContactSection() {
                 href={channel.href}
                 target={channel.label === 'Email' ? undefined : '_blank'}
                 rel={channel.label === 'Email' ? undefined : 'noopener noreferrer'}
-                className="flex items-center gap-4 rounded-2xl border border-[#e6ddd4] bg-white/80 p-4 text-[#333333] transition hover:border-[#A67979] hover:text-[#A67979]"
+                className="flex items-center gap-4 rounded-2xl border border-[#e6ddd4] bg-white/80 p-4 text-[#333333] transition hover:border-[#8f5e5e] hover:text-[#8f5e5e]"
               >
-                <span className="text-[#A67979]">{channel.icon}</span>
+                <span className="text-[#8f5e5e]">{channel.icon}</span>
                 <div>
                   <p className="text-sm font-semibold uppercase tracking-[0.2em]">{channel.label}</p>
                   <p>{channel.value}</p>
@@ -92,13 +92,13 @@ export function ContactSection() {
           >
             Psicóloga Clínica
           </h4>
-          <p className="mt-2 text-sm font-semibold tracking-[0.3em] text-[#A67979] uppercase">
+          <p className="mt-2 text-sm font-semibold tracking-[0.3em] text-[#8f5e5e] uppercase">
             CRP 07/39057
           </p>
-          <p className="mt-6 text-[#534f4c]">
+          <p className="mt-6 text-[#4a4542]">
             Graduada pela Universidade Católica de Pelotas (UCPel) e pós-graduada em Terapia Cognitivo-Comportamental pela Wainer Psicologia. Experiência em saúde mental coletiva, hospitalar e projetos acadêmicos.
           </p>
-          <div className="mt-8 grid gap-4 border-t border-[#e6ddd4] pt-8 text-[#534f4c]">
+          <div className="mt-8 grid gap-4 border-t border-[#e6ddd4] pt-8 text-[#4a4542]">
             <div>
               <p className="text-sm font-semibold text-[#333333]">Missão</p>
               <p>
