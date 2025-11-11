@@ -21,8 +21,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Julia Goulart - Psicóloga Clínica em Pelotas/RS | TCC",
-  description: "Psicóloga clínica pós-graduada em Terapia Cognitivo-Comportamental (TCC) pela Wainer Psicologia. Atendimento presencial em Pelotas/RS e online para todo o Brasil. Especialista em ansiedade, autoestima e relacionamentos.",
+  title: "Julia Goulart - Psicóloga Clínica em Pelotas/RS | CRP 07/39057 | TCC",
+  description: "Psicóloga clínica (CRP 07/39057) graduada pela UCPel e pós-graduada em Terapia Cognitivo-Comportamental. Atendimento presencial em Pelotas/RS e online para todo o Brasil. Especialista em ansiedade, autoestima e relacionamentos.",
   keywords: [
     "psicóloga Pelotas",
     "psicóloga Pelotas RS",
@@ -35,6 +35,10 @@ export const metadata: Metadata = {
     "psicóloga ansiedade Pelotas",
     "psicóloga relacionamentos",
     "atendimento psicológico Pelotas",
+    "CRP 07/39057",
+    "psicóloga UCPel",
+    "psicóloga formada UCPel",
+    "Wainer Psicologia",
   ],
   authors: [{ name: "Julia Goulart" }],
   creator: "Julia Goulart",
@@ -71,6 +75,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://juliagoulart.psi.umbrielcms.com.br",
   },
+  verification: {
+    google: "_S0MzUP1lAP7NR59bDXzQgwT48WLvntMuQV_waB5WjY",
+  },
 };
 
 export default function RootLayout({
@@ -83,7 +90,7 @@ export default function RootLayout({
     '@type': 'Psychologist',
     name: 'Julia Goulart',
     image: 'https://juliagoulart.psi.umbrielcms.com.br/logo.svg',
-    description: 'Psicóloga clínica pós-graduada em Terapia Cognitivo-Comportamental (TCC) pela Wainer Psicologia.',
+    description: 'Psicóloga clínica (CRP 07/39057) graduada pela UCPel e pós-graduada em Terapia Cognitivo-Comportamental pela Wainer Psicologia. Atendimento presencial em Pelotas/RS e online.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Pelotas',

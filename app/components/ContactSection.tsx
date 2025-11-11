@@ -93,10 +93,10 @@ export function ContactSection() {
             Psicóloga Clínica
           </h4>
           <p className="mt-2 text-sm font-semibold tracking-[0.3em] text-[#A67979] uppercase">
-            Atualize aqui o seu CRP
+            CRP 07/39057
           </p>
           <p className="mt-6 text-[#534f4c]">
-            Pós-graduação em Terapia Cognitivo-Comportamental pela Wainer Psicologia. Formação contínua em saúde mental, aprimorando práticas para oferecer cuidado atualizado e humano.
+            Graduada pela Universidade Católica de Pelotas (UCPel) e pós-graduada em Terapia Cognitivo-Comportamental pela Wainer Psicologia. Experiência em saúde mental coletiva, hospitalar e projetos acadêmicos.
           </p>
           <div className="mt-8 grid gap-4 border-t border-[#e6ddd4] pt-8 text-[#534f4c]">
             <div>

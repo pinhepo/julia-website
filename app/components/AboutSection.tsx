@@ -29,13 +29,13 @@ export function AboutSection() {
           </h3>
           <div className="mt-6 space-y-4 text-[#534f4c] leading-relaxed">
             <p>
-              Sou psicóloga clínica, pós-graduada em Terapia Cognitivo-Comportamental pela Wainer Psicologia. Minha prática prioriza acolhimento, ética e a construção de um espaço em que você se sinta seguro para falar sobre suas experiências.
+              Sou psicóloga clínica (CRP 07/39057), graduada pela Universidade Católica de Pelotas (UCPel) e pós-graduada em Terapia Cognitivo-Comportamental pela Wainer Psicologia. Minha prática prioriza acolhimento, ética e a construção de um espaço em que você se sinta seguro para falar sobre suas experiências.
             </p>
             <p>
-              O processo terapêutico envolve identificar padrões de pensamento e comportamento, ressignificar histórias e desenvolver estratégias alinhadas com aquilo que você deseja viver. Cada plano de cuidado é construído junto com você, respeitando sua singularidade.
+              Com experiência em saúde mental coletiva, hospitalar e projetos acadêmicos, desenvolvi uma abordagem que integra conhecimento científico com humanização no cuidado. O processo terapêutico envolve identificar padrões de pensamento e comportamento, ressignificar histórias e desenvolver estratégias alinhadas com aquilo que você deseja viver.
             </p>
             <p>
-              Atendo adolescentes e adultos com demandas relacionadas à ansiedade, autoestima, relacionamentos, transições de vida e desafios emocionais. Vamos, juntos, buscar equilíbrio e qualidade de vida.
+              Atendo adolescentes e adultos, presencialmente em Pelotas ou online para todo o Brasil, com demandas relacionadas à ansiedade, autoestima, relacionamentos, transições de vida e desafios emocionais. Cada plano de cuidado é construído junto com você, respeitando sua singularidade.
             </p>
           </div>
         </article>
