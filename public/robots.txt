@@ -1,7 +1,0 @@
-# Allow all search engines
-User-agent: *
-Allow: /
-
-# Sitemap location
-Sitemap: https://juliagoulart.psi.umbrielcms.com.br/sitemap.xml
-
