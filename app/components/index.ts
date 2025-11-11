@@ -5,4 +5,6 @@ export { FAQSection } from './FAQSection';
 export { ContactSection } from './ContactSection';
 export { Footer } from './Footer';
 export { WhatsAppButton } from './WhatsAppButton';
+export { ShareButton } from './ShareButton';
+export { MobileMenu } from './MobileMenu';
 
